@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PROXY • Redirect</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+
+body{
+    background: radial-gradient(circle at top, #0b132b, #000);
+    color:#fff;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.bg{
+    position:fixed;
+    width:200%;
+    height:200%;
+    background:
+      radial-gradient(circle, rgba(0,255,255,.15), transparent 60%),
+      radial-gradient(circle, rgba(0,150,255,.15), transparent 60%);
+    animation:move 12s linear infinite;
+    z-index:-1;
+}
+
+@keyframes move{
+    0%{transform:translate(0,0)}
+    50%{transform:translate(-10%, -10%)}
+    100%{transform:translate(0,0)}
+}
+
+.card{
+    background:rgba(0,0,0,.55);
+    border:1px solid rgba(0,255,255,.3);
+    box-shadow:0 0 30px rgba(0,255,255,.25);
+    border-radius:20px;
+    padding:30px;
+    width:90%;
+    max-width:380px;
+    text-align:center;
+}
+
+.pfp{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:3px solid cyan;
+    margin:0 auto 15px;
+    background:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQEBIVFRUVFRUVFRUVFRUVFRUXFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGy0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgMEAAIHAQj/xABCEAABAwIEAwUHBQYEBwAAAAABAAIDBBEFEiExBkFRBxMiYXGBkRQjQqGxwdHwFSNSYnKS4RYkU5PS8f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACURAQACAgICAgMAAAAAAAAAAAABAgMRITESQVEEMkJhgf/aAAwDAQACEQMRAD8A...
+") center/cover;
+}
+
+h1{
+    letter-spacing:2px;
+    margin-bottom:8px;
+}
+
+.tag{
+    color:#00ffff;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.links a{
+    display:block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid rgba(0,255,255,.4);
+    padding:12px;
+    margin:10px 0;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.links a:hover{
+    background:rgba(0,255,255,.15);
+    transform:scale(1.03);
+}
+</style>
+</head>
+
+<body>
+<div class="bg"></div>
+
+<div class="card">
+    <div class="pfp"></div>
+
+    <h1>PROXY</h1>
+    <div class="tag">CODE • CREATE • DOMINATE</div>
+
+    <div class="links">
+        <a href="https://t.me/Comfuker_bot">🤖 @Comfuker_bot</a>
+        <a href="https://t.me/hyperbanning_bot">🤖 @hyperbanning_bot</a>
+        <a href="https://t.me/sparkpr3m1um_bot">🤖 @sparkpr3m1um_bot</a>
+
+        <a href="https://t.me/proxydominates">📢 @proxydominates</a>
+        <a href="https://t.me/midnight_xaura">🌙 @midnight_xaura</a>
+        <a href="https://t.me/proxymethodss">⚡ @proxymethodss</a>
+    </div>
+</div>
+
+</body>
+</html>
